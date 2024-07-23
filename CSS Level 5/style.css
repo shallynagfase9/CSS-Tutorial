@@ -1,0 +1,57 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px dotted black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+    /* transition: all 2s ease-in-out 1s; */
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transform: scale(2);
+    /* animation-name: Animatecolor;
+    animation-timing-function:steps(100) ;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: Animatecolor 2s linear 1s infinite reverse;
+
+}
+
+@keyframes Animatecolor{
+    0% {
+        background-color: blueviolet;
+        left: 0px;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: chartreuse;
+        right: 200px;}
+
+    }
+
+
+div:hover{
+    /* background-color: yellow;
+    color: green;
+    font-style: italic;
+    font-size: 20px;
+    transform: scaleY(3);
+    transform: scaleX(2);
+    transform: rotate(90deg);
+    transform: translateX(200px);
+    transform: translateY(-200px);
+    transform: skew(30deg); */
+}
+
+/* div:active{
+    color: white;
+    background-color: pink;
+} */

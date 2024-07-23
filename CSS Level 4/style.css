@@ -1,0 +1,108 @@
+/* body{
+    text-align: center;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: rgb(230, 0, 255);
+    height: 100px;
+    align-self: flex-start;
+    flex-shrink: 0.5;
+    flex-grow: 1;
+}
+
+#box3{
+    background-color: rgb(93, 0, 255);
+}
+
+#box4{
+    background-color: rgb(188, 195, 195);
+}
+
+#box5{
+    background-color: rgb(255, 170, 0);
+} */
+
+
+/* Practice set 6 */
+/* .navbar{
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+li{
+    list-style-type: none;
+    display:inline
+}
+
+.outer{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: maroon;
+    height: 100px;
+    width: 100px;
+} */
+
+/* Media queries */
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+
+@media(width: 600px) {
+    div{
+    background-color:red;
+    }
+}
+
+
+
+@media(max-width: 600px) {
+    div{
+    background-color:magenta;
+    }
+}
+
+
+@media(min-width: 200px) and (max-width:300px) {
+    div{
+    background-color:green;
+    }
+}
